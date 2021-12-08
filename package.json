@@ -1,0 +1,12 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "practice node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo やっはろー",
+    "start": "node src/app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
