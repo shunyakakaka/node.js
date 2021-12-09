@@ -1,12 +1,19 @@
 {
   "name": "node",
   "version": "1.0.0",
+  "private": true,
   "description": "practice node",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo やっはろー",
-    "start": "node src/app.js"
+    "start": "node src/app.js",
+    "server": "node src/server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "http": "^0.0.1-security",
+    "webpack": "^5.65.0"
+  }
 }
